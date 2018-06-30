@@ -1,6 +1,5 @@
 module Lib
-    ( someFunc
-    ) where
+  ( args
+  ) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+import CmdArg

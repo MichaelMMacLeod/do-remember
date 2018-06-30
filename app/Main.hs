@@ -1,6 +1,8 @@
 module Main where
 
+import System.Environment
+
 import Lib
 
 main :: IO ()
-main = someFunc
+main = getArgs >>= putStrLn . show . args
